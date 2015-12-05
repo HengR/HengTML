@@ -1,0 +1,112 @@
+html{
+	margin: 0;
+	padding: 0;
+	line-height: 0px;
+}
+
+body {
+	text-align: center;
+    background-color: lightblue;
+    font-family: Kristen ITC;
+}
+
+.pokeball {
+	float: left;
+	padding: 10px;
+	background-color: black;
+	margin: 10px;
+	color: white;
+	border-color: gold;
+	border-style: dotted;
+	height: 100;
+}
+.poke_container {
+	background-color: gray;
+	color: white;
+	height: 200px;
+	width:585px;
+	margin: auto;
+	border-style: solid;
+	border-color: black;
+}
+
+
+.p2{
+	float: center;
+	padding: 10px;
+	background-color: black;
+	margin: 10px;
+	color: white;
+	height: 100;
+	border-radius: 50px;
+}
+
+.p1{
+	float: center;
+	padding: 10px;
+	background-color: black;
+	margin: 10px;
+	color: white;
+	height: 100;
+	border-radius: 50px;
+}
+.pokeSelection {
+	font-weight: 900;
+	margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+	height: 490px;
+	width: 500px;
+	line-height: 5px;
+	text-align: center;
+	background-color: lightgreen;
+	border-style: solid;
+	border-radius: 50px
+
+}
+.playerTurn {
+	color: red;
+}
+
+h2 {
+
+	text-align: center;
+	line-height: none;
+}
+
+.hi{
+	color: white;
+	width:700px;
+	margin: auto;
+}
+
+.reset{
+float: left;
+	border-radius: 30px:;
+	background-color: grey;
+	width: 300px;
+	height: 50px;
+	margin-bottom;
+	margin-top: 20px;
+	margin-left: 30px;
+	margin-right: 10px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 20px;
+}
+.ready{
+float: left;
+	border-radius: 30px:;
+	background-color: grey;
+	width: 300px;
+	height: 50px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	border-color: black;
+	border-radius: 20px;
+
+}
+
+
