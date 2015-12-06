@@ -21,10 +21,11 @@ pickFire.onclick = function(){
 	if (!p1Pick){
 		p1Sel = 'fire';
 		p1TurnOver();
-	}
-	else if(p1Pick)
+	} else if(p1Pick) {
 		p2Sel = 'fire';
-	p2TurnOver();
+		p2TurnOver();
+	}
+	
 };
 
 
@@ -32,45 +33,36 @@ pickWater.onclick = function(){
 	if (!p1Pick){
 		p1Sel = 'water';
 		p1TurnOver();
-	}
-	else if(p1Pick){
+	} else if(p1Pick) {
 		p2Sel = 'water';
-	    p2TurnOver();}
+	    p2TurnOver();
+	}
 };
 pickGrass.onclick = function(){
 	if (!p1Pick){
 		p1Sel = 'grass';
 		p1TurnOver();
-	}
-	else if(p1Pick){
+	} else if(p1Pick) {
 		p2Sel = 'grass';
-	p2TurnOver();}
+		p2TurnOver();
+	}
 };
 
 pickRandom.onclick = function(){
-	num1= Math.floor(Math.random() * 3) + 1;
-	num = num1;
-	num2 = Math.floor(Math.random()*3)+1;
-	if (p1Pick == true){
-		num = num2;
-	}
-	if(num = 1){
+	num = Math.floor(Math.random() * 3) + 1;
+	if(num == 1){
 		selection = 'fire';
-	}
-	else if(num = 2){
+	} else if(num == 2){
 		selection = 'water';
-	}
-	else {
+	} else {
 		selection = 'grass';
 	}
-
 	if (!p1Pick){
 		p1Sel = selection;
 		p1TurnOver();
-	}
-	else if(p1Pick){
+	} else if(p1Pick) {
 		p2Sel = selection;
-	p2TurnOver();
+		p2TurnOver();
 	}
 };
 
@@ -88,12 +80,13 @@ startButton.onclick = function(){
 
 function nameFunc(x){
 	name = x;
-	if (x == 'grass')
+	if (x == 'grass') {
 		name = "Berlbaterd"
-	else if (x =='fire')
+	} else if (x =='fire') {
 		name = "Cheritard";
-	else if (x =='water')
+	} else if (x =='water') {
 		name = "Skwertard";
+	}
 	return name;
 }
 
@@ -115,4 +108,6 @@ resetButton.onclick = function(){
 		p1Name.innerHTML = null;
 		p2Name.innerHTML = null;
 		updateStatus.innerHTML = "[Player One], Choose your pokemon!";
+		p1Pick = false;
+		p2Pick = false;
 }
