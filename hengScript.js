@@ -49,15 +49,10 @@ pickGrass.onclick = function(){
 };
 
 pickRandom.onclick = function(){
-	num1= Math.floor(Math.random() * 3) + 1;
-	num = num1;
-	num2 = Math.floor(Math.random()*3)+1;
-	if (p1Pick == true){
-		num = num2;
-	}
-	if(num = 1){
+	num = Math.floor(Math.random() * 3) + 1;
+	if(num == 1){
 		selection = 'fire';
-	} else if(num = 2){
+	} else if(num == 2){
 		selection = 'water';
 	} else {
 		selection = 'grass';
