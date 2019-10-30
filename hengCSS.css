@@ -19,7 +19,9 @@ body {
 	border-color: gold;
 	border-style: dotted;
 	height: 100;
+	cursor: pointer;
 }
+
 .poke_container {
 	background-color: gray;
 	color: white;
@@ -29,7 +31,6 @@ body {
 	border-style: solid;
 	border-color: black;
 }
-
 
 .p2{
 	float: center;
@@ -62,14 +63,13 @@ body {
 	background-color: lightgreen;
 	border-style: solid;
 	border-radius: 50px
-
 }
+
 .playerTurn {
 	color: red;
 }
 
 h2 {
-
 	text-align: center;
 	line-height: none;
 }
@@ -81,7 +81,7 @@ h2 {
 }
 
 .reset{
-float: left;
+	float: left;
 	border-radius: 30px:;
 	background-color: grey;
 	width: 300px;
@@ -93,9 +93,10 @@ float: left;
 	border-style: solid;
 	border-color: black;
 	border-radius: 20px;
+	cursor: pointer;
 }
 .ready{
-float: left;
+	float: left;
 	border-radius: 30px:;
 	background-color: grey;
 	width: 300px;
@@ -106,7 +107,7 @@ float: left;
 	border-style: solid;
 	border-color: black;
 	border-radius: 20px;
-
+	cursor: pointer;
 }
 
 
