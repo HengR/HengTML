@@ -105,8 +105,8 @@ function p2TurnOver(){
 resetButton.onclick = function(){
 		p1Pokemon.innerHTML = "<img src = 'unknown.jpg' width = '100' height = '100'>" ;
 		p2Pokemon.innerHTML = "<img src = 'unknown.jpg' width = '100' height = '100'>";
-		p1Name.innerHTML = null;
-		p2Name.innerHTML = null;
+		p1Name.innerHTML = "name";
+		p2Name.innerHTML = "name";
 		updateStatus.innerHTML = "[Player One], Choose your pokemon!";
 		p1Pick = false;
 		p2Pick = false;
