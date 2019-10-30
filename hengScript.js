@@ -69,7 +69,6 @@ pickRandom.onclick = function(){
 startButton.onclick = function(){
 	gReady = p1Pick&&p2Pick;
 	if(gReady){
-		alert("FIGHT");
 		p1Name.innerHTML = nameFunc(p1Sel);
 		p2Name.innerHTML = nameFunc(p2Sel);
 	    p1Pokemon.innerHTML = "<img src = '" + p1Sel + ".jpg' width = '100' height = '100'>" ;
